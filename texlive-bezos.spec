@@ -1,3 +1,9 @@
+# revision 20113
+# category Package
+# catalog-ctan /macros/latex/contrib/bezos
+# catalog-date 2010-10-14 20:46:53 +0200
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-bezos
 Version:	20101014
 Release:	1
@@ -59,6 +65,7 @@ maths fonts.
 %doc %{_texmfdistdir}/doc/latex/bezos/esindex.tex
 %doc %{_texmfdistdir}/doc/latex/bezos/tensind.pdf
 %doc %{_texmfdistdir}/doc/latex/bezos/tensind.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -69,3 +76,5 @@ maths fonts.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
