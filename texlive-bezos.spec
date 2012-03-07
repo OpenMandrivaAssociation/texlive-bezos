@@ -1,4 +1,4 @@
-# revision 20113
+# revision 25507
 # category Package
 # catalog-ctan /macros/latex/contrib/bezos
 # catalog-date 2010-10-14 20:46:53 +0200
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-bezos
 Version:	20101014
-Release:	2
+Release:	3
 Summary:	Packages by Javier Bezos
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/bezos
@@ -43,6 +43,7 @@ maths fonts.
 %{_texmfdistdir}/tex/latex/bezos/checkend.sty
 %{_texmfdistdir}/tex/latex/bezos/dotlessi.sty
 %{_texmfdistdir}/tex/latex/bezos/esindex.sty
+%{_texmfdistdir}/tex/latex/bezos/soulpos.sty
 %{_texmfdistdir}/tex/latex/bezos/subdocs.sty
 %{_texmfdistdir}/tex/latex/bezos/tensind.sty
 %doc %{_texmfdistdir}/doc/latex/bezos/README
@@ -54,6 +55,8 @@ maths fonts.
 %doc %{_texmfdistdir}/doc/latex/bezos/bezos.tex
 %doc %{_texmfdistdir}/doc/latex/bezos/esindex.pdf
 %doc %{_texmfdistdir}/doc/latex/bezos/esindex.tex
+%doc %{_texmfdistdir}/doc/latex/bezos/soulpos.pdf
+%doc %{_texmfdistdir}/doc/latex/bezos/soulpos.tex
 %doc %{_texmfdistdir}/doc/latex/bezos/tensind.pdf
 %doc %{_texmfdistdir}/doc/latex/bezos/tensind.tex
 
