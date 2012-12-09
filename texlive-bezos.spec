@@ -69,3 +69,26 @@ maths fonts.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Fri Mar 09 2012 Per Øyvind Karlsen <peroyvind@mandriva.org> 20101014-4
++ Revision: 783481
+- rebuild without scriptlet dependencies
+
+* Wed Mar 07 2012 Paulo Andrade <pcpa@mandriva.com.br> 20101014-3
++ Revision: 782958
+- Update to latest release.
+
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 20101014-2
++ Revision: 749598
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20101014-1
++ Revision: 717912
+- texlive-bezos
+- texlive-bezos
+- texlive-bezos
+- texlive-bezos
+- texlive-bezos
+
