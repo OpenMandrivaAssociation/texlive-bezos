@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-bezos
 Version:	20101014
-Release:	8
+Release:	9
 Summary:	Packages by Javier Bezos
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/bezos
