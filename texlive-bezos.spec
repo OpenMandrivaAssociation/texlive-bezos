@@ -5,7 +5,7 @@
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-bezos
-Version:	20190129
+Version:	20190228
 Release:	1
 Summary:	Packages by Javier Bezos
 Group:		Publishing
