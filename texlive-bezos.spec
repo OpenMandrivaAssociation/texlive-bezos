@@ -9,7 +9,7 @@ Version:	20190228
 Release:	2
 Summary:	Packages by Javier Bezos
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/bezos
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/bezos
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bezos.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bezos.doc.tar.xz
